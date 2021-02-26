@@ -1,4 +1,5 @@
 // Use Chai for more powerful assertion https://www.chaijs.com/api/assert/
+// Use Chai-Http for more better API request response https://www.chaijs.com/plugins/chai-http/
 const assert = require('assert'); // Default assertion available in node https://nodejs.org/api/assert.html#assert_assert
 const {listToTest} = require("./app"); //Import functions you want to test
 const {get} = require('./util');
