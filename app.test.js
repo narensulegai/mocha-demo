@@ -1,12 +1,13 @@
 // Use Chai for more powerful assertion https://www.chaijs.com/api/assert/
 const assert = require('assert'); // Default assertion available in node https://nodejs.org/api/assert.html#assert_assert
-const {get} = require("./app"); //Import functions you want to test
+const {listToTest} = require("./app"); //Import functions you want to test
+const {get} = require('./util');
 
 //Testing synchronous code
 describe('Array', () => {
     describe('#indexOf()', () => {
         it('should return -1 when the value is not present', () => {
-            assert.strictEqual([1, 2, 3].indexOf(5), -1)
+            assert.strictEqual(listToTest.indexOf(5), -1);
         });
     });
 });
