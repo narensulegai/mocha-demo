@@ -1,4 +1,4 @@
-# React demo
+# Mocha demo
 
 [Download PPT here](https://github.com/narensulegai/mocha-demo/raw/master/MochaAndJMeter.pdf)
 
